@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 #loading the saved model
-loaded_model = pickle.load(open('G:/AI_ML/Deploy_ML/trained_model .sav','rb'))
+loaded_model = pickle.load(open('trained_model .sav','rb'))
 
 #Creating a function for prediction
 def diab_pred(input_data):
@@ -57,4 +57,5 @@ def main():
     st.success(diagnosis)
     
 if __name__ == '__main__':  #We did this so that the file will only execute when run from cmd
+
     main()
