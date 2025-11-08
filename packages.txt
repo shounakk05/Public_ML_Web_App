@@ -1,0 +1,4 @@
+libopenblas-dev
+libblas-dev
+liblapack-dev
+build-essential
